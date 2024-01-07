@@ -16,7 +16,7 @@
     "ip-info"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
     "domainprobe": "./index.js"
   },
