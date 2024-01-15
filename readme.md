@@ -15,6 +15,8 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 **domain-info:** Retrieve detailed information about a domain.(including longitude and latitude)
 **ip-info:** Retrieve detailed information about an IP address.(including longitude and latitude)
 **location** you can get exact location with the help of longitude and latitude.
+**mx record** get mx record
+**cname** get cname
 
 ## Example 1:
 - ***command***-
@@ -66,3 +68,9 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 - ***Output***-
 ![Screenshot](images/location.png)
         
+## Example 6:
+- ***command***-
+```bash
+    domainprobe mx https://github.com     
+    domainprobe cname https://github.com
+```
