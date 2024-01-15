@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/Surajchandraa/domainprobe-cli",
   "dependencies": {
-    "domainprobe": "^1.0.5"
+    "domainprobe": "^1.1.0"
   }
 }
