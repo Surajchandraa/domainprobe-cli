@@ -29,6 +29,16 @@ else if(select_functionality==='location'){
         console.table(data)
     })
 }
+else if(select_functionality==='mx'){
+    domainprobe.get_mx(input,(err,data)=>{
+        console.log(data)
+    })
+}
+else if(select_functionality==='cname'){
+    domainprobe.get_cname(input,(err,data)=>{
+        console.log(data)
+    })
+}
 else{
     console.log('invalid operation')
 }
