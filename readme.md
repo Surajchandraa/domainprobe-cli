@@ -17,6 +17,7 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 **location** you can get exact location with the help of longitude and latitude.
 **mx record** get mx record
 **cname** get cname
+**--help** help command gives you manual of software
 
 ## Example 1:
 - ***command***-
