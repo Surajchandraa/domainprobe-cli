@@ -60,6 +60,30 @@ else if(select_functionality==='cname'){
         console.log(data)
     })
 }
+else if (select_functionality === '--help') {
+    console.log(`
+Usage: domainprobe [operation] [input] [optional_input]
+
+Operations:
+  ip <domain>                    Get IP address of a domain
+  hostname <ip_address>          Get hostname of an IP address
+  domain-info <domain>           Extract information about a domain
+  ip-info <ip_address>           Extract information about an IP address
+  location <latitude> <longitude>  Get exact location based on latitude and longitude
+  mx <domain>                    Get MX records of a domain
+  cname <domain>                 Get CNAME record of a domain
+
+Examples:
+  domainprobe ip example.com
+  domainprobe hostname 192.0.2.1
+  domainprobe domain-info example.com
+  domainprobe ip-info 192.0.2.1
+  domainprobe location 37.7749 -122.4194
+  domainprobe mx example.com
+  domainprobe cname example.com
+`);
+}
+
 else{
     console.log('invalid operation')
 }
