@@ -18,6 +18,7 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
 - **mx record** get mx record
 - **cname** get cname
 - **--help** help command gives you manual of software
+- multiple inputs can be given in a single command.
 
 ## Example 1:
 - ***command***-
@@ -75,3 +76,10 @@ The Domainprobe CLI provides a command-line interface for the Domain Info Extrac
     domainprobe mx https://github.com     
     domainprobe cname https://github.com
 ```
+## Example 7:
+- ***command***-
+```
+    domainprobe ip https://xy.com https://xz.com ..... 
+    domainprobe hostname <ip1> <ip2> <ip3> .... <ipN>
+```
+
